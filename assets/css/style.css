@@ -5,10 +5,13 @@
     margin: 0;
 }
 
+/* The below code sets the background color to the entire html. */
 html {
     background-color: #d9dcd6;
 }
 
+/* This code sets the padding all around the header to 20px and sets the font-family to Trebuchet MS or the succeeding fonts if 
+the browser can't read it. The header also has a different background color, as well as a text color of white. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,15 +19,20 @@ html {
     color: #ffffff;
 }
 
+/* The following code sets the header "Horiseon" to display as inline-block and sets it to a font size of 48px. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* The following code sets the span attribute "seo" in the header "Horiseon" to a different color. */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* The following code sets the contents of the class "navbar" to a padding of 15px on top and a margin of 20px on the right side.
+ The navbar is also set to float to the right. The font-family is set for Gill Sans or succeeding font options if that doesn't work.
+ The font size is also set to 20px. */
 .navbar {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,24 +41,32 @@ html {
     font-size: 20px;
 }
 
+/* The following code sets the ul in the class "navbar" to a list style type of none. This gets rid of the bullet points. */
 .navbar ul {
     list-style-type: none;
 }
 
+/* This code sets the list items in the unordered list of class "navbar" to display as inline-block and sets the margin on the left
+side to 25px. */
 .navbar ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This code sets the color of the anchor elements to white and text decoration as none. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* The following code sets the paragraph elements to a font size of 16px. */
 p {
     font-size: 16px;
 }
 
+/* This code sets the hero banner of the webpage to a background image. The margin on the bottom is set to 25px and the 
+width and height of the image is set to 800px and 100%. The hero image is set to cover the entire element and to be
+positioned in the center. */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +76,32 @@ p {
     background-position: center;
 }
 
+/* This code sets the images with class "float-left" to float to the left of the text. There is also a margin of 25px
+to the right of the images. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* This code sets the image with class "float-right" to float to the right of the text. There is also a margin of 25px
+to the left of the image. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* The following code sets the section with the class "content" to a width of 75%, a display of inline-block, and
+a margin of 20px to the left of the class. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* This code sets the section with the class "benefits" to float to the right and will not float on both sides. The right margin 
+is set to 20px and there is a padding of 20px as well. The with of this section is 20% and the height is 100%. The font-family
+is set to Gill Sans or succeeding font options if that doesn't work. The background color for this section is also set to a 
+different shade of blue. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,55 +113,33 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* The following code sets the section elements with the classes "benefit-lead," "benefit-brand," and "benefit-cost" to have a 
+margin of 32px on the bottom and a text color of white. */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* This code sets the headers under the classes "benefit-lead," "benefit-brand," and "benefit-cost" to a margin of 10px on the 
+bottom and sets the text to align in the center vertically. */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* This code sets the images under the classes "benefit-lead," "benefit-brand," and "benefit-cost" to display as block, sets the 
+margin to 10px on all sides, and gives the image a maximum width of 150px. */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* The following code sets the sections under the class "search-engine-optimization," "online-reputation-management," and 
+"social-media-marketing" to have a margin of 20px on the bottom, a padding of 50px all around the elements. The height is 
+set to 300px, the font-family to Gill Sans and the succeeding font options if the browser can't load the first one. The 
+background color is also set to a darker blue with a text color of white. */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,51 +148,22 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* This code sets the images under the classes "search-engine-optimization," "online-repuation-management," and 
+"social-media-marketing" to a maximum height of 200px. */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* This code sets the headers under the classes "search-engine-optimization," "online-repuation-management," and 
+"social-media-marketing" to a margin of 20px on the bottom and a font size of 36px. */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* This code sets the class "footer" to have a padding of 30px all around, and that no other float elements take up 
+space on either sides of the elements. The font-family is is set to Gill Sans and the succeeding font options if the 
+browser can't load the first one. The elements are also set to the center vertically. */
 .footer {
     padding: 30px;
     clear: both;
@@ -196,6 +171,7 @@ p {
     text-align: center;
 }
 
+/* This code sets the header under the class "footer" to a font size of 20px. */
 .footer h2 {
     font-size: 20px;
 }
